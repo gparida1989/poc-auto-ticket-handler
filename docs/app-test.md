@@ -41,6 +41,8 @@ uvicorn src.main:app --reload
 - GET http://127.0.0.1:8000/health
 - Should return `{ "status": "ok" }`
 
+#### Run mock-source
+uvicorn src.main:app --reload
 ### 5. Troubleshooting
 - If you see "connection refused":
   - Make sure the server is running and not blocked by firewall
@@ -50,4 +52,6 @@ uvicorn src.main:app --reload
 
 ---
 
-*Last updated: February 28, 2026*
+
+run this before invking start-app.ps1
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned

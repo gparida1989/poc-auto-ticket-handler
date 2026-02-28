@@ -4,7 +4,7 @@ from src.models.standard_ticket import StandardTicket
 
 class SourcePlugin(ABC):
     @abstractmethod
-    def validate_ticket(self, ticket: Dict[str, Any]) -> StandardTicket:
+    async def validate_ticket(self, ticket: Dict[str, Any]) -> StandardTicket:
         pass
 
     @abstractmethod

@@ -5,7 +5,7 @@ from src.models.allocation_decision import AllocationDecision
 import datetime
 
 class AllocationEngine:
-    def allocate(self, ticket: StandardTicket, groups: List[AssignmentGroup]) -> AllocationDecision:
+    async def allocate(self, ticket: StandardTicket, groups: List[AssignmentGroup]) -> AllocationDecision:
         # Placeholder: run all 7 scorers and select best group
         # In real implementation, call each scorer and compute weighted sum
         best_group = groups[0] if groups else None

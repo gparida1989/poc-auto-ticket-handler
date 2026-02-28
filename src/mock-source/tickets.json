@@ -1,0 +1,852 @@
+[
+  {
+    "ticket_id": "TICKET-001",
+    "ticket_number": "INC0000001",
+    "title": "Unable to access the VPN",
+    "description": "I am unable to connect to the company VPN. I am getting an error message 'Connection timed out'.",
+    "category": "technical",
+    "priority": "high",
+    "source": "web_portal",
+    "requester_location": {"country": "USA", "city": "New York"},
+    "urgency": "high",
+    "impact": "high",
+    "external_metadata": {
+      "department": "Engineering",
+      "account_id": "ACC001",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "ticket_id": "TICKET-002",
+    "ticket_number": "INC0000002",
+    "title": "Incorrect invoice",
+    "description": "Incorrect invoice received for the month of January.",
+    "category": "billing",
+    "priority": "medium",
+    "source": "api",
+    "requester_location": {"lat": 40.7128, "lng": -74.0060},
+    "urgency": "medium",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "Finance",
+      "account_id": "ACC002",
+      "phone": "234-567-8901"
+    }
+  },
+  {
+    "ticket_id": "TICKET-003",
+    "ticket_number": "INC0000003",
+    "title": "Update contact information",
+    "description": "Request to update my contact information.",
+    "category": "account",
+    "priority": "low",
+    "source": "email",
+    "requester_location": {"country": "UK", "city": "London"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Sales",
+      "account_id": "ACC003",
+      "phone": "345-678-9012"
+    }
+  },
+  {
+    "ticket_id": "TICKET-004",
+    "ticket_number": "INC0000004",
+    "title": "System is down",
+    "description": "System is down. Unable to process any orders.",
+    "category": "other",
+    "priority": "critical",
+    "source": "chat",
+    "requester_location": {"country": "Japan", "city": "Tokyo"},
+    "urgency": "high",
+    "impact": "high",
+    "external_metadata": {
+      "department": "Operations",
+      "account_id": "ACC004",
+      "phone": "456-789-0123"
+    }
+  },
+  {
+    "ticket_id": "TICKET-005",
+    "ticket_number": "INC0000005",
+    "title": "Application running slow",
+    "description": "The application is running slow after the recent update.",
+    "category": "technical",
+    "priority": "medium",
+    "source": "web_portal",
+    "requester_location": {"country": "Australia", "city": "Sydney"},
+    "urgency": "medium",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "IT",
+      "account_id": "ACC005",
+      "phone": "567-890-1234"
+    }
+  },
+  {
+    "ticket_id": "TICKET-006",
+    "ticket_number": "INC0000006",
+    "title": "Payment failed",
+    "description": "Payment failed for the subscription renewal.",
+    "category": "billing",
+    "priority": "high",
+    "source": "api",
+    "requester_location": {"lat": 34.0522, "lng": -118.2437},
+    "urgency": "high",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "Finance",
+      "account_id": "ACC006",
+      "phone": "678-901-2345"
+    }
+  },
+  {
+    "ticket_id": "TICKET-007",
+    "ticket_number": "INC0000007",
+    "title": "Reset password",
+    "description": "How do I reset my password?",
+    "category": "account",
+    "priority": "low",
+    "source": "email",
+    "requester_location": {"country": "France", "city": "Paris"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Customer Support",
+      "account_id": "ACC007",
+      "phone": "789-012-3456"
+    }
+  },
+  {
+    "ticket_id": "TICKET-008",
+    "ticket_number": "INC0000008",
+    "title": "404 Not Found",
+    "description": "I am getting a '404 Not Found' error on the pricing page.",
+    "category": "technical",
+    "priority": "medium",
+    "source": "chat",
+    "requester_location": {"country": "Germany", "city": "Berlin"},
+    "urgency": "medium",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Marketing",
+      "account_id": "ACC008",
+      "phone": "890-123-4567"
+    }
+  },
+  {
+    "ticket_id": "TICKET-009",
+    "ticket_number": "INC0000009",
+    "title": "Website not loading correctly",
+    "description": "The website is not loading correctly on my mobile browser.",
+    "category": "other",
+    "priority": "high",
+    "source": "web_portal",
+    "requester_location": {"lat": 48.8566, "lng": 2.3522},
+    "urgency": "high",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "Engineering",
+      "account_id": "ACC009",
+      "phone": "901-234-5678"
+    }
+  },
+  {
+    "ticket_id": "TICKET-010",
+    "ticket_number": "INC0000010",
+    "title": "API returning 500 error",
+    "description": "The API is returning a '500 Internal Server Error' for all requests.",
+    "category": "technical",
+    "priority": "critical",
+    "source": "api",
+    "requester_location": {"country": "Singapore", "city": "Singapore"},
+    "urgency": "high",
+    "impact": "high",
+    "external_metadata": {
+      "department": "IT",
+      "account_id": "ACC010",
+      "phone": "012-345-6789"
+    }
+  },
+  {
+    "ticket_id": "TICKET-011",
+    "ticket_number": "INC0000011",
+    "title": "Request for a refund",
+    "description": "Request for a refund for the last month's subscription.",
+    "category": "billing",
+    "priority": "medium",
+    "source": "email",
+    "requester_location": {"country": "Canada", "city": "Toronto"},
+    "urgency": "medium",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Finance",
+      "account_id": "ACC011",
+      "phone": "112-233-4455"
+    }
+  },
+  {
+    "ticket_id": "TICKET-012",
+    "ticket_number": "INC0000012",
+    "title": "Close account",
+    "description": "I want to close my account.",
+    "category": "account",
+    "priority": "low",
+    "source": "chat",
+    "requester_location": {"lat": 35.6895, "lng": 139.6917},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Customer Support",
+      "account_id": "ACC012",
+      "phone": "223-344-5566"
+    }
+  },
+  {
+    "ticket_id": "TICKET-013",
+    "ticket_number": "INC0000013",
+    "title": "'Export to PDF' not working",
+    "description": "The 'Export to PDF' feature is not working.",
+    "category": "technical",
+    "priority": "medium",
+    "source": "web_portal",
+    "requester_location": {"country": "India", "city": "Mumbai"},
+    "urgency": "medium",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Engineering",
+      "account_id": "ACC013",
+      "phone": "334-455-6677"
+    }
+  },
+  {
+    "ticket_id": "TICKET-014",
+    "ticket_number": "INC0000014",
+    "title": "Unable to update user profile",
+    "description": "Unable to update user profile information via the API.",
+    "category": "account",
+    "priority": "high",
+    "source": "api",
+    "requester_location": {"lat": -23.5505, "lng": -46.6333},
+    "urgency": "high",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "IT",
+      "account_id": "ACC014",
+      "phone": "445-566-7788"
+    }
+  },
+  {
+    "ticket_id": "TICKET-015",
+    "ticket_number": "INC0000015",
+    "title": "Suggestion for a new feature",
+    "description": "I have a suggestion for a new feature.",
+    "category": "other",
+    "priority": "low",
+    "source": "email",
+    "requester_location": {"country": "Russia", "city": "Moscow"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Product Management",
+      "account_id": "ACC015",
+      "phone": "556-677-8899"
+    }
+  },
+  {
+    "ticket_id": "TICKET-016",
+    "ticket_number": "INC0000016",
+    "title": "Cannot access staging environment",
+    "description": "Cannot access the staging environment.",
+    "category": "technical",
+    "priority": "high",
+    "source": "web_portal",
+    "requester_location": {"country": "USA", "city": "San Francisco"},
+    "urgency": "high",
+    "impact": "high",
+    "external_metadata": {
+      "department": "Engineering",
+      "account_id": "ACC016",
+      "phone": "123-456-7891"
+    }
+  },
+  {
+    "ticket_id": "TICKET-017",
+    "ticket_number": "INC0000017",
+    "title": "Dispute a charge",
+    "description": "Dispute a charge on my credit card.",
+    "category": "billing",
+    "priority": "medium",
+    "source": "api",
+    "requester_location": {"lat": 37.7749, "lng": -122.4194},
+    "urgency": "medium",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "Finance",
+      "account_id": "ACC017",
+      "phone": "234-567-8902"
+    }
+  },
+  {
+    "ticket_id": "TICKET-018",
+    "ticket_number": "INC0000018",
+    "title": "Question about terms of service",
+    "description": "Question about the terms of service.",
+    "category": "account",
+    "priority": "low",
+    "source": "email",
+    "requester_location": {"country": "USA", "city": "Chicago"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Legal",
+      "account_id": "ACC018",
+      "phone": "345-678-9013"
+    }
+  },
+  {
+    "ticket_id": "TICKET-019",
+    "ticket_number": "INC0000019",
+    "title": "Account may be compromised",
+    "description": "I think my account has been compromised.",
+    "category": "other",
+    "priority": "critical",
+    "source": "chat",
+    "requester_location": {"country": "USA", "city": "Houston"},
+    "urgency": "high",
+    "impact": "high",
+    "external_metadata": {
+      "department": "Security",
+      "account_id": "ACC019",
+      "phone": "456-789-0124"
+    }
+  },
+  {
+    "ticket_id": "TICKET-020",
+    "ticket_number": "INC0000020",
+    "title": "Dashboard not updating",
+    "description": "The dashboard is not updating in real-time.",
+    "category": "technical",
+    "priority": "medium",
+    "source": "web_portal",
+    "requester_location": {"country": "USA", "city": "Phoenix"},
+    "urgency": "medium",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "Engineering",
+      "account_id": "ACC020",
+      "phone": "567-890-1235"
+    }
+  },
+  {
+    "ticket_id": "TICKET-021",
+    "ticket_number": "INC0000021",
+    "title": "Requesting past invoices",
+    "description": "Requesting a copy of all my past invoices.",
+    "category": "billing",
+    "priority": "high",
+    "source": "api",
+    "requester_location": {"lat": 29.7604, "lng": -95.3698},
+    "urgency": "high",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Finance",
+      "account_id": "ACC021",
+      "phone": "678-901-2346"
+    }
+  },
+  {
+    "ticket_id": "TICKET-022",
+    "ticket_number": "INC0000022",
+    "title": "Unsubscribe from marketing emails",
+    "description": "Unsubscribe from marketing emails.",
+    "category": "account",
+    "priority": "low",
+    "source": "email",
+    "requester_location": {"country": "USA", "city": "Philadelphia"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Marketing",
+      "account_id": "ACC022",
+      "phone": "789-012-3457"
+    }
+  },
+  {
+    "ticket_id": "TICKET-023",
+    "ticket_number": "INC0000023",
+    "title": "Trouble uploading a file",
+    "description": "I am having trouble uploading a file.",
+    "category": "technical",
+    "priority": "medium",
+    "source": "chat",
+    "requester_location": {"country": "USA", "city": "San Antonio"},
+    "urgency": "medium",
+    "impact": "low",
+    "external_metadata": {
+      "department": "IT",
+      "account_id": "ACC023",
+      "phone": "890-123-4568"
+    }
+  },
+  {
+    "ticket_id": "TICKET-024",
+    "ticket_number": "INC0000024",
+    "title": "Unclear privacy policy",
+    "description": "The privacy policy is unclear.",
+    "category": "other",
+    "priority": "high",
+    "source": "web_portal",
+    "requester_location": {"lat": 39.9526, "lng": -75.1652},
+    "urgency": "high",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Legal",
+      "account_id": "ACC024",
+      "phone": "901-234-5679"
+    }
+  },
+  {
+    "ticket_id": "TICKET-025",
+    "ticket_number": "INC0000025",
+    "title": "Authentication service is down",
+    "description": "The authentication service is down.",
+    "category": "technical",
+    "priority": "critical",
+    "source": "api",
+    "requester_location": {"country": "USA", "city": "San Diego"},
+    "urgency": "high",
+    "impact": "high",
+    "external_metadata": {
+      "department": "IT",
+      "account_id": "ACC025",
+      "phone": "012-345-6780"
+    }
+  },
+  {
+    "ticket_id": "TICKET-026",
+    "ticket_number": "INC0000026",
+    "title": "Coupon code not working",
+    "description": "My coupon code is not working.",
+    "category": "billing",
+    "priority": "medium",
+    "source": "email",
+    "requester_location": {"country": "USA", "city": "Dallas"},
+    "urgency": "medium",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Marketing",
+      "account_id": "ACC026",
+      "phone": "112-233-4456"
+    }
+  },
+  {
+    "ticket_id": "TICKET-027",
+    "ticket_number": "INC0000027",
+    "title": "How to change username",
+    "description": "How can I change my username?",
+    "category": "account",
+    "priority": "low",
+    "source": "chat",
+    "requester_location": {"lat": 32.7767, "lng": -96.7970},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Customer Support",
+      "account_id": "ACC027",
+      "phone": "223-344-5567"
+    }
+  },
+  {
+    "ticket_id": "TICKET-028",
+    "ticket_number": "INC0000028",
+    "title": "Search not returning results",
+    "description": "The search functionality is not returning any results.",
+    "category": "technical",
+    "priority": "medium",
+    "source": "web_portal",
+    "requester_location": {"country": "USA", "city": "San Jose"},
+    "urgency": "medium",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "Engineering",
+      "account_id": "ACC028",
+      "phone": "334-455-6678"
+    }
+  },
+  {
+    "ticket_id": "TICKET-029",
+    "ticket_number": "INC0000029",
+    "title": "Unexpected rate-limiting",
+    "description": "I am being rate-limited unexpectedly.",
+    "category": "account",
+    "priority": "high",
+    "source": "api",
+    "requester_location": {"lat": 37.3382, "lng": -121.8863},
+    "urgency": "high",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "IT",
+      "account_id": "ACC029",
+      "phone": "445-566-7789"
+    }
+  },
+  {
+    "ticket_id": "TICKET-030",
+    "ticket_number": "INC0000030",
+    "title": "Question about company mission",
+    "description": "I have a question about your company's mission.",
+    "category": "other",
+    "priority": "low",
+    "source": "email",
+    "requester_location": {"country": "USA", "city": "Austin"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "PR",
+      "account_id": "ACC030",
+      "phone": "556-677-8890"
+    }
+  },
+  {
+    "ticket_id": "TICKET-031",
+    "ticket_number": "INC0000031",
+    "title": "Website security warning",
+    "description": "The website is showing a security warning.",
+    "category": "technical",
+    "priority": "high",
+    "source": "web_portal",
+    "requester_location": {"country": "USA", "city": "Jacksonville"},
+    "urgency": "high",
+    "impact": "high",
+    "external_metadata": {
+      "department": "Security",
+      "account_id": "ACC031",
+      "phone": "123-456-7892"
+    }
+  },
+  {
+    "ticket_id": "TICKET-032",
+    "ticket_number": "INC0000032",
+    "title": "How to upgrade subscription",
+    "description": "How do I upgrade my subscription plan?",
+    "category": "billing",
+    "priority": "medium",
+    "source": "api",
+    "requester_location": {"lat": 30.3322, "lng": -81.6557},
+    "urgency": "medium",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Sales",
+      "account_id": "ACC032",
+      "phone": "234-567-8903"
+    }
+  },
+  {
+    "ticket_id": "TICKET-033",
+    "ticket_number": "INC0000033",
+    "title": "Trouble logging in with new phone",
+    "description": "I am having trouble logging in with my new phone.",
+    "category": "account",
+    "priority": "low",
+    "source": "email",
+    "requester_location": {"country": "USA", "city": "Fort Worth"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Customer Support",
+      "account_id": "ACC033",
+      "phone": "345-678-9014"
+    }
+  },
+  {
+    "ticket_id": "TICKET-034",
+    "ticket_number": "INC0000034",
+    "title": "Phishing email received",
+    "description": "I received a phishing email that looks like it came from you.",
+    "category": "other",
+    "priority": "critical",
+    "source": "chat",
+    "requester_location": {"country": "USA", "city": "Columbus"},
+    "urgency": "high",
+    "impact": "high",
+    "external_metadata": {
+      "department": "Security",
+      "account_id": "ACC034",
+      "phone": "456-789-0125"
+    }
+  },
+  {
+    "ticket_id": "TICKET-035",
+    "ticket_number": "INC0000035",
+    "title": "New feature not working",
+    "description": "The new feature is not working as described in the documentation.",
+    "category": "technical",
+    "priority": "medium",
+    "source": "web_portal",
+    "requester_location": {"country": "USA", "city": "Charlotte"},
+    "urgency": "medium",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "Engineering",
+      "account_id": "ACC035",
+      "phone": "567-890-1236"
+    }
+  },
+  {
+    "ticket_id": "TICKET-036",
+    "ticket_number": "INC0000036",
+    "title": "Charged for a service I did not use",
+    "description": "I am being charged for a service I did not use.",
+    "category": "billing",
+    "priority": "high",
+    "source": "api",
+    "requester_location": {"lat": 35.2271, "lng": -80.8431},
+    "urgency": "high",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "Finance",
+      "account_id": "ACC036",
+      "phone": "678-901-2347"
+    }
+  },
+  {
+    "ticket_id": "TICKET-037",
+    "ticket_number": "INC0000037",
+    "title": "Data privacy policy question",
+    "description": "I would like to know more about your data privacy policy.",
+    "category": "account",
+    "priority": "low",
+    "source": "email",
+    "requester_location": {"country": "USA", "city": "Indianapolis"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Legal",
+      "account_id": "ACC037",
+      "phone": "789-012-3458"
+    }
+  },
+  {
+    "ticket_id": "TICKET-038",
+    "ticket_number": "INC0000038",
+    "title": "Mobile app crashing",
+    "description": "The mobile app is crashing on startup.",
+    "category": "technical",
+    "priority": "medium",
+    "source": "chat",
+    "requester_location": {"country": "USA", "city": "Seattle"},
+    "urgency": "medium",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "IT",
+      "account_id": "ACC038",
+      "phone": "890-123-4569"
+    }
+  },
+  {
+    "ticket_id": "TICKET-039",
+    "ticket_number": "INC0000039",
+    "title": "Typo on your website",
+    "description": "I found a typo on your website.",
+    "category": "other",
+    "priority": "high",
+    "source": "web_portal",
+    "requester_location": {"lat": 47.6062, "lng": -122.3321},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Marketing",
+      "account_id": "ACC039",
+      "phone": "901-234-5670"
+    }
+  },
+  {
+    "ticket_id": "TICKET-040",
+    "ticket_number": "INC0000040",
+    "title": "Production system down",
+    "description": "Our production system is down because of a breaking change in your API.",
+    "category": "technical",
+    "priority": "critical",
+    "source": "api",
+    "requester_location": {"country": "USA", "city": "Denver"},
+    "urgency": "high",
+    "impact": "high",
+    "external_metadata": {
+      "department": "IT",
+      "account_id": "ACC040",
+      "phone": "012-345-6781"
+    }
+  },
+  {
+    "ticket_id": "TICKET-041",
+    "ticket_number": "INC0000041",
+    "title": "Pay invoice with different card",
+    "description": "Can I pay my invoice with a different credit card?",
+    "category": "billing",
+    "priority": "medium",
+    "source": "email",
+    "requester_location": {"country": "USA", "city": "Washington, D.C."},
+    "urgency": "medium",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Finance",
+      "account_id": "ACC041",
+      "phone": "112-233-4457"
+    }
+  },
+  {
+    "ticket_id": "TICKET-042",
+    "ticket_number": "INC0000042",
+    "title": "Idea for a new feature",
+    "description": "I have an idea for a new feature.",
+    "category": "account",
+    "priority": "low",
+    "source": "chat",
+    "requester_location": {"lat": 38.9072, "lng": -77.0369},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Product Management",
+      "account_id": "ACC042",
+      "phone": "223-344-5568"
+    }
+  },
+  {
+    "ticket_id": "TICKET-043",
+    "ticket_number": "INC0000043",
+    "title": "Confusing API documentation",
+    "description": "The documentation for the API is confusing.",
+    "category": "technical",
+    "priority": "medium",
+    "source": "web_portal",
+    "requester_location": {"country": "USA", "city": "Boston"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Engineering",
+      "account_id": "ACC043",
+      "phone": "334-455-6679"
+    }
+  },
+  {
+    "ticket_id": "TICKET-044",
+    "ticket_number": "INC0000044",
+    "title": "Add new user to team",
+    "description": "I need to add a new user to my team.",
+    "category": "account",
+    "priority": "high",
+    "source": "api",
+    "requester_location": {"lat": 42.3601, "lng": -71.0589},
+    "urgency": "medium",
+    "impact": "low",
+    "external_metadata": {
+      "department": "IT",
+      "account_id": "ACC044",
+      "phone": "445-566-7780"
+    }
+  },
+  {
+    "ticket_id": "TICKET-045",
+    "ticket_number": "INC0000045",
+    "title": "Contact sales team",
+    "description": "What is the best way to contact your sales team?",
+    "category": "other",
+    "priority": "low",
+    "source": "email",
+    "requester_location": {"country": "USA", "city": "El Paso"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Sales",
+      "account_id": "ACC045",
+      "phone": "556-677-8891"
+    }
+  },
+  {
+    "ticket_id": "TICKET-046",
+    "ticket_number": "INC0000046",
+    "title": "Password reset link not working",
+    "description": "The password reset link is not working.",
+    "category": "technical",
+    "priority": "high",
+    "source": "web_portal",
+    "requester_location": {"country": "USA", "city": "Detroit"},
+    "urgency": "high",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "IT",
+      "account_id": "ACC046",
+      "phone": "123-456-7893"
+    }
+  },
+  {
+    "ticket_id": "TICKET-047",
+    "ticket_number": "INC0000047",
+    "title": "Charged twice for subscription",
+    "description": "I was charged twice for the same subscription.",
+    "category": "billing",
+    "priority": "medium",
+    "source": "api",
+    "requester_location": {"lat": 42.3314, "lng": -83.0458},
+    "urgency": "medium",
+    "impact": "medium",
+    "external_metadata": {
+      "department": "Finance",
+      "account_id": "ACC047",
+      "phone": "234-567-8904"
+    }
+  },
+  {
+    "ticket_id": "TICKET-048",
+    "ticket_number": "INC0000048",
+    "title": "Request a demo",
+    "description": "Can I have a demo of your product?",
+    "category": "account",
+    "priority": "low",
+    "source": "email",
+    "requester_location": {"country": "USA", "city": "Nashville"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "Sales",
+      "account_id": "ACC048",
+      "phone": "345-678-9015"
+    }
+  },
+  {
+    "ticket_id": "TICKET-049",
+    "ticket_number": "INC0000049",
+    "title": "Harassment by another user",
+    "description": "I am being harassed by another user on your platform.",
+    "category": "other",
+    "priority": "critical",
+    "source": "chat",
+    "requester_location": {"country": "USA", "city": "Memphis"},
+    "urgency": "high",
+    "impact": "high",
+    "external_metadata": {
+      "department": "Trust and Safety",
+      "account_id": "ACC049",
+      "phone": "456-789-0126"
+    }
+  },
+  {
+    "ticket_id": "TICKET-050",
+    "ticket_number": "INC0000050",
+    "title": "Incorrect server time",
+    "description": "The time on your servers seems to be incorrect.",
+    "category": "technical",
+    "priority": "medium",
+    "source": "web_portal",
+    "requester_location": {"country": "USA", "city": "Louisville"},
+    "urgency": "low",
+    "impact": "low",
+    "external_metadata": {
+      "department": "IT",
+      "account_id": "ACC050",
+      "phone": "567-890-1237"
+    }
+  }
+]
