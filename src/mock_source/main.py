@@ -41,4 +41,6 @@ def post_ticket():
 
 @app.on_event("startup")
 async def startup_event():
+    logging.info("Mock source is starting up and will post tickets to %s", WEBHOOK_URL)
     threading.Thread(target=post_ticket, daemon=True).start()
+    logging.info("Mock source started")

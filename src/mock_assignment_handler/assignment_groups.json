@@ -1,0 +1,32 @@
+[
+  {
+    "group_id": "L1-Support",
+    "name": "L1 Support",
+    "location": {"region": "us-east"},
+    "capabilities": ["basic", "troubleshooting"],
+    "status": "active",
+    "max_bandwidth": 10,
+    "current_load": 2,
+    "metrics": {}
+  },
+  {
+    "group_id": "L2-Support",
+    "name": "L2 Support",
+    "location": {"region": "us-west"},
+    "capabilities": ["advanced", "database"],
+    "status": "active",
+    "max_bandwidth": 5,
+    "current_load": 4,
+    "metrics": {}
+  },
+  {
+    "group_id": "L3-Support",
+    "name": "L3 Support",
+    "location": {"region": "eu-central"},
+    "capabilities": ["expert", "development"],
+    "status": "active",
+    "max_bandwidth": 3,
+    "current_load": 1,
+    "metrics": {}
+  }
+]
