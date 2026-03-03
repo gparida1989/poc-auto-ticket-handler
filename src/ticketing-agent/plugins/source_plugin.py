@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import Dict, Any
-from src.models.standard_ticket import StandardTicket
+from ..models.standard_ticket import StandardTicket
 
 class SourcePlugin(ABC):
     @abstractmethod

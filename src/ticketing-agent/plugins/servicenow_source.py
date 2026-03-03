@@ -1,6 +1,6 @@
 from typing import Dict, Any
-from src.models.standard_ticket import StandardTicket
-from src.plugins.source_plugin import SourcePlugin
+from ..models.standard_ticket import StandardTicket
+from .source_plugin import SourcePlugin
 import uuid
 
 class ServiceNowSource(SourcePlugin):

@@ -1,7 +1,7 @@
 from typing import List
-from src.models.standard_ticket import StandardTicket
-from src.models.assignment_group import AssignmentGroup
-from src.models.allocation_decision import AllocationDecision
+from ..models.standard_ticket import StandardTicket
+from ..models.assignment_group import AssignmentGroup
+from ..models.allocation_decision import AllocationDecision
 import datetime
 
 class AllocationEngine:

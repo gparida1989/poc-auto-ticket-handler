@@ -1,15 +1,12 @@
-import sys
-import os
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from fastapi import FastAPI, Request, HTTPException
-from src.agent.core import TicketAllocationAgent
-from src.plugins.source_plugin import SourcePlugin
-from src.plugins.handler_plugin import HandlerPlugin
-from src.allocation_engine.engine import AllocationEngine
+from .agent.core import TicketAllocationAgent
+from .plugins.source_plugin import SourcePlugin
+from .plugins.handler_plugin import HandlerPlugin
+from .allocation_engine.engine import AllocationEngine
 import logging
 
-from src.plugins.servicenow_source import ServiceNowSource
-from src.plugins.servicenow_handler import ServiceNowHandler
+from .plugins.servicenow_source import ServiceNowSource
+from .plugins.servicenow_handler import ServiceNowHandler
 
 # Placeholder: You will need to implement actual plugins
 logging.basicConfig(level=logging.INFO)

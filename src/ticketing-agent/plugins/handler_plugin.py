@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any
-from src.models.assignment_group import AssignmentGroup
-from src.models.allocation_decision import AllocationDecision
+from ..models.assignment_group import AssignmentGroup
+from ..models.allocation_decision import AllocationDecision
 
 class HandlerPlugin(ABC):
     @abstractmethod

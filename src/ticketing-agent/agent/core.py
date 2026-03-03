@@ -1,10 +1,10 @@
 from typing import Dict, Any, Optional
-from src.models.standard_ticket import StandardTicket
-from src.models.assignment_group import AssignmentGroup
-from src.models.allocation_decision import AllocationDecision
-from src.plugins.source_plugin import SourcePlugin
-from src.plugins.handler_plugin import HandlerPlugin
-from src.allocation_engine.engine import AllocationEngine
+from ..models.standard_ticket import StandardTicket
+from ..models.assignment_group import AssignmentGroup
+from ..models.allocation_decision import AllocationDecision
+from ..plugins.source_plugin import SourcePlugin
+from ..plugins.handler_plugin import HandlerPlugin
+from ..allocation_engine.engine import AllocationEngine
 import datetime
 
 class TicketAllocationAgent:

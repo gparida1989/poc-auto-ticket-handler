@@ -1,7 +1,7 @@
 from typing import Dict, Any, List
-from src.plugins.handler_plugin import HandlerPlugin
-from src.models.assignment_group import AssignmentGroup
-from src.models.allocation_decision import AllocationDecision
+from .handler_plugin import HandlerPlugin
+from ..models.assignment_group import AssignmentGroup
+from ..models.allocation_decision import AllocationDecision
 
 class ServiceNowHandler(HandlerPlugin):
     async def get_assignment_groups(self, category: str) -> List[AssignmentGroup]:
