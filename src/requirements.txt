@@ -1,3 +1,5 @@
-fastapi
-uvicorn
-requests
+fastapi>=0.95.2
+uvicorn[standard]>=0.22.0
+requests>=2.31.0
+# Optional (recommended) for async HTTP client if you convert to async calls
+httpx>=0.24.0
