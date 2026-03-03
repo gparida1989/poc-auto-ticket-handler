@@ -1,2 +1,2 @@
-Start-Process uvicorn -ArgumentList "src.ticketing-agent.main:app --reload"
-Start-Process uvicorn -ArgumentList "src.mock-source.main:app --reload"
+Start-Process uvicorn -ArgumentList "ticketing_agent.main:app --reload --port 8000" -WorkingDirectory "src"
+Start-Process uvicorn -ArgumentList "mock_source.main:app --reload --port 8001" -WorkingDirectory "src"
